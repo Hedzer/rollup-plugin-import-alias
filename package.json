@@ -1,6 +1,6 @@
 {
   "name": "rollup-import-alias",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Provides directory aliases for es2015 import statements",
   "main": "index.js",
   "scripts": {

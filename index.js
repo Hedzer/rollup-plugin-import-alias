@@ -1,7 +1,7 @@
 var path = require('path');
 var fs = require('fs');
 
-export function rollupImportAlias(options) {
+module.exports = function rollupImportAlias(options) {
 	if (typeof options !== 'object') {
 		return {};
 	}
