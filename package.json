@@ -1,5 +1,5 @@
 {
-  "name": "rollup-import-alias",
+  "name": "rollup-plugin-import-alias",
   "version": "1.0.1",
   "description": "Provides directory aliases for es2015 import statements",
   "main": "index.js",
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Hedzer/rollup-import-alias.git"
+    "url": "git+https://github.com/Hedzer/rollup-plugin-import-alias.git"
   },
   "keywords": [
     "rollup",
@@ -19,7 +19,7 @@
   "author": "Hedzer Ferwerda <hedzer87@gmail.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/Hedzer/rollup-import-alias/issues"
+    "url": "https://github.com/Hedzer/rollup-plugin-import-alias/issues"
   },
-  "homepage": "https://github.com/Hedzer/rollup-import-alias#readme"
+  "homepage": "https://github.com/Hedzer/rollup-plugin-import-alias#readme"
 }

@@ -5,12 +5,12 @@ Provides directory aliases for es2015 import statements.
 
 ## Installation
 
-  npm install rollup-import-alias --save-dev
+  npm install rollup-plugin-import-alias --save-dev
 
 ## Usage
 ### In rollup.plugins
 ```javascript
-var importAlias = require('rollup-import-alias');
+var importAlias = require('rollup-plugin-import-alias');
 
 importAlias({
     Paths: {
