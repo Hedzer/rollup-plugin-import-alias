@@ -36,7 +36,7 @@ module.exports = function rollupPluginImportAlias(options) {
 						
 						} else if (fs.existsSync(directory) && fs.statSync(directory).isDirectory()) {
 							for (var j = 0; j < extCount; j++) {
-								ext = extentions[i];
+								ext = extensions[i];
 								absolute = directory + '/index.' + ext;
 								if (fs.existsSync(absolute)) {
 									return path.normalize(absolute);
