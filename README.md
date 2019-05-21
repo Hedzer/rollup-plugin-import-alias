@@ -15,7 +15,7 @@ var importAlias = require('rollup-plugin-import-alias');
 importAlias({
     Paths: {
         TypeChecks: '../Common/TypeChecks',
-	    Framework: './V1.0/Framework'					
+	Framework: './V1.0/Framework'					
     },
     Extensions: ['js']
 });
