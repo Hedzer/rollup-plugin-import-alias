@@ -29,7 +29,14 @@ module.exports = function rollupPluginImportAlias(options) {
 					var ext, absolute;
 					for (var i = 0; i < extCount; i++) {
 						ext = extensions[i];
-						absolute = directory + '.' + ext;
+						if (directory.endsWith('.' + ext))
+						{
+							absolute = directory;
+						}
+						else
+						{
+							absolute = directory + '.' + ext;
+						}
 						
 						if (fs.existsSync(absolute)) {
 							return path.normalize(absolute);
