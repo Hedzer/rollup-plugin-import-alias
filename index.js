@@ -25,7 +25,7 @@ module.exports = function rollupPluginImportAlias(options) {
 			var extCount = extensions.length;
 			for (var entry of paths) {
 				if (importee.substring(0, entry.key.length) === entry.key) {
-					var directory = importee.replace(entry.key, entry.path);
+					var directory = path.resolve(importee.replace(entry.key, entry.path));
 					var ext, absolute;
 					for (var i = 0; i < extCount; i++) {
 						ext = extensions[i];
